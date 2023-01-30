@@ -1,0 +1,49 @@
+/* DEFAULT */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9rem;
+  background-color:rgb(39, 39, 39);
+}
+
+/* THIS WILL CREATE A FLOWING COLOR CHANGE WHEN HOVERED AFTER ADDING JS */
+#letter1, #letter2, #letter3, #letter4,
+#letter5, #letter6, #letter7, #letter8,
+#letter9, #letter10, #letter11, #letter12 {
+background-color: rgb(39, 39, 39);
+transition: ease-in-out;
+}
+
+
+
+
+/* #letter1:hover, #letter2:hover, 
+#letter3:hover, #letter4:hover,
+#letter5:hover, #letter6:hover, 
+#letter7:hover, #letter8:hover,
+#letter9:hover, #letter10:hover, 
+#letter11:hover, #letter12:hover {
+  color:rgb(5, 172, 238);
+  transition:ease-in-out .2s;
+} */
+/* 
+
+
+/* BODY */
+
+
+
+
+
+
+/* FOOTER */
