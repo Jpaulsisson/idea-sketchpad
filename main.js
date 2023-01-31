@@ -92,7 +92,7 @@ const sum = arrayToSum.reduce((accumulator, currentValue)=> {
 return accumulator + currentValue;
 }, 0);
 
-console.log(sum);
+// console.log(sum);
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -104,6 +104,30 @@ const payoff = arrayOfPayments.reduce((accumulator, currentValue)=> {
 return accumulator - currentValue;
 }, 10000);
 
-console.log(payoff);
+// console.log(payoff);
 
 ///////////////////////////////////////////////////////////////////////////////
+
+const ratings = [95, 87, 55, 68, 92]
+
+function getAverageRating(array) {
+  let total = array.reduce((acc, cV) => {
+    return acc + cV;
+  });
+  return total / array.length;
+};
+
+// console.log(getAverageRating(ratings));
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+function generateRandomColor() {
+    const r = Math.floor(Math.random() * 255);
+    const g = Math.floor(Math.random() * 255);
+    const b = Math.floor(Math.random() * 255);
+    let color = `rgb(${r}, ${g}, ${b})`;
+    return color;
+};
+
+// console.log(generateRandomColor())
